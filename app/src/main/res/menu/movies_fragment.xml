@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:apps="ttp://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.MainActivity">
+
+    <item
+        android:id="@+id/action_sort"
+        android:icon="@drawable/action_sort"
+        android:orderInCategory="2"
+        android:title="@string/action_sort"
+        app:showAsAction="ifRoom">
+        <menu>
+            <group
+                android:id="@+id/sort_group"
+                android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/action_fav"
+                    android:orderInCategory="4"
+                    android:title="@string/action_fav"
+                    apps:showAsAction="never" />
+
+                <item
+                    android:id="@+id/action_high"
+                    android:orderInCategory="3"
+                    android:title="@string/action_high"
+                    apps:showAsAction="never" />
+
+                <item
+                    android:id="@+id/action_pop"
+                    android:checked="true"
+                    android:orderInCategory="2"
+                    android:title="@string/action_pop"
+                    apps:showAsAction="never" />
+
+
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_up"
+        android:icon="@drawable/slide_up"
+        android:orderInCategory="1"
+        android:title="@string/go_top"
+        app:showAsAction="always" />
+
+</menu>

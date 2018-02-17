@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="MissingPrefix">
+
+    <TextView
+        android:id="@+id/revName"
+        fontPath="fonts/SemiBold.ttf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:paddingLeft="20dp"
+        android:textColor="#5e5e5e"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/revContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/revName"
+        android:gravity="start"
+        android:paddingBottom="8dp"
+        android:paddingLeft="35dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/revContent"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="5dp"
+        android:background="#c7d2d2d2" />
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <!--TODO (6) change name app to the project-->
+    <string name="app_name">Best Movies</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="action_share">Share</string>
+    <string name="go_top">Slide to top</string>
+    <string name="action_sort">Sort</string>
+    <string name="action_pop">Lagi Popular</string>
+    <string name="action_high">Peringkat Teratas</string>
+    <string name="action_fav">Favorite Saya</string>
+    <string name="detail_trailer">Trailers</string>
+    <string name="detail_reviews">Reviews</string>
+    <string name="detail_overview">Overview</string>
+    <string name="no_conn">Harap Isi Paket</string>
+    <string name="see_more">See more</string>
+    <string name="no_trail">No trailers found.</string>
+    <string name="no_revs">No reviews found.</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="choose_mov">Please choose a movie.</string>
+</resources>

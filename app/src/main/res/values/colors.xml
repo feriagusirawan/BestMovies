@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--TODO (4) Change the color to project -->
+    <color name="colorPrimaryDark">#72135d</color>
+    <color name="colorTransBar">#30000000</color>
+    <color name="colorPrimary">#8c1769</color>
+    <color name="colorAccent">#6b4d9c</color>
+    <color name="tabBackColor">#ffeeeeee</color>
+</resources>
